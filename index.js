@@ -3,7 +3,7 @@ const app = express();
 
 const path = require('path');
 
-app.get('/.....................................html', function(req, res){
+app.get('/loaderio-e1df1fafe30772f953ca55ba5d2406ec.html', function(req, res){
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
